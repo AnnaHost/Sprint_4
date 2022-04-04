@@ -25,7 +25,6 @@ public class Account {
                 count++;
             }
         }
-        System.out.println(count);
         return count;
     }
 
