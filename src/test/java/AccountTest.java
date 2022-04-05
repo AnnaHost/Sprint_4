@@ -38,7 +38,7 @@ public class AccountTest {
     }
 
     @Test
-    @DisplayName("Проверка ввода разных данных владельца карты")
+    @DisplayName("Проверка ввода разных данных владельца карты.")
     public void test() {
         Account account = new Account(name);
         Allure.addAttachment("Строка для проверки", name);
